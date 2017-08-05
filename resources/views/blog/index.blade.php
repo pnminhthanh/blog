@@ -1,5 +1,5 @@
 
-@extends('layouts.app')
+@extends('layouts.theme')
 
 @section('content')
     @foreach ($posts as $post)

@@ -1,5 +1,5 @@
 
-@extends('layouts.master')
+@extends('layouts.theme')
 
 @section('content')
     <button class = "btn btn-primary" onclick ="location.href='{{ url('/blog/create')}}'">Create</button> 
